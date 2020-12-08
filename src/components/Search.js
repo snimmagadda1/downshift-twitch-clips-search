@@ -179,7 +179,7 @@ class Search extends React.Component {
                       </div>
                     </DropDownItem>
                   ))}
-                  {!this.state.items.length && !this.state.loading && (
+                  {!items.length && !this.state.loading && (
                     <DropDownItem>
                       {" "}
                       No clips found for {inputValue}...
